@@ -1,74 +1,79 @@
-# AI Interview Preparation Assistant
+# 🤖 AI Interview Preparation Assistant
 
-## Overview
+## 📖 Overview
 
-AI Interview Preparation Assistant is a RAG-based application designed to help candidates prepare for interviews more effectively. The system allows users to upload resumes and job descriptions, analyze skill alignment, generate interview questions, and obtain AI-powered responses using contextual information retrieved from uploaded documents.
+**AI Interview Preparation Assistant** is a **Retrieval-Augmented Generation (RAG)** based application designed to help candidates prepare for technical interviews more effectively.
+
+The application allows users to upload their **Resume** and **Job Description (JD)** PDFs, analyze skill alignment, identify missing skills, generate AI-powered interview questions, and receive context-aware responses using information retrieved from the uploaded documents.
 
 ---
 
-## Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## 🎨 Frontend
 
 * React.js
 * Axios
 
-### Backend
+## ⚙️ Backend
 
 * FastAPI
 * Python
 
-### AI & RAG
+## 🧠 AI & RAG
 
 * Google Gemini API
 * ChromaDB (Vector Database)
 * Sentence Transformers
 * LangChain Text Splitters
 
-### Document Processing
+## 📄 Document Processing
 
 * PyPDF
 
 ---
 
-## Key Features
+# ✨ Key Features
 
-* Resume and Job Description Upload
-* Resume vs Job Description Analysis
-* Skill Gap Identification
-* AI-Powered Interview Question Generation
-* Retrieval-Augmented Generation (RAG) based Question Answering
-* Semantic Search using Vector Embeddings
-* PDF Text Extraction and Processing
-
----
-
-## How It Works
-
-1. Resume and Job Description PDFs are uploaded and processed.
-2. The extracted text is divided into smaller chunks.
-3. Chunks are converted into vector embeddings and stored in ChromaDB.
-4. User queries are matched against relevant document content using semantic retrieval.
-5. Retrieved context is provided to Gemini to generate accurate and context-aware responses.
+* 📄 Resume and Job Description Upload
+* 📊 Resume vs Job Description Analysis
+* 🎯 Skill Gap Identification
+* ❓ AI-Powered Interview Question Generation
+* 🤖 Retrieval-Augmented Generation (RAG) Based Question Answering
+* 🔍 Semantic Search Using Vector Embeddings
+* 📑 PDF Text Extraction and Processing
 
 ---
 
-## Future Enhancements
+# 🔄 How It Works
 
-* Mock Interview Sessions
-* AI-Based Answer Evaluation
-* Authentication and User Profiles
-* Chat History Management
-* Multi-Document Knowledge Base
-* Cloud Deployment
+1. 📤 Upload Resume and Job Description PDFs.
+2. 📄 Extract text from the uploaded PDF documents.
+3. ✂️ Split the extracted text into smaller chunks.
+4. 🧠 Convert each chunk into vector embeddings.
+5. 🗄️ Store the embeddings in **ChromaDB**.
+6. 🔍 Perform semantic retrieval to find the most relevant document chunks for the user's query.
+7. 🤖 Provide the retrieved context to **Google Gemini**.
+8. 💬 Generate accurate, context-aware AI responses.
 
 ---
 
-## Technologies & Concepts Demonstrated
+# 🚀 Future Enhancements
 
-* Retrieval-Augmented Generation (RAG)
-* Large Language Model (LLM) Integration
-* Vector Databases
-* Embeddings & Semantic Search
-* Prompt Engineering
-* Full-Stack Development with React & FastAPI
+* 🎤 Mock Interview Sessions
+* 📝 AI-Based Answer Evaluation
+* 🔐 Authentication and User Profiles
+* 💬 Chat History Management
+* 📚 Multi-Document Knowledge Base
+* ☁️ Cloud Deployment
+
+---
+
+# 📚 Technologies & Concepts Demonstrated
+
+* 🔹 Retrieval-Augmented Generation (RAG)
+* 🔹 Large Language Model (LLM) Integration
+* 🔹 Vector Databases
+* 🔹 Embeddings & Semantic Search
+* 🔹 Prompt Engineering
+* 🔹 Full-Stack Development with React & FastAPI
